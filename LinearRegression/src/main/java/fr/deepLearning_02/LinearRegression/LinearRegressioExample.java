@@ -16,7 +16,8 @@ public class LinearRegressioExample {
 		// Définir un réseau neuronal simple avec une seule couche
 		MultiLayerNetwork model = new MultiLayerNetwork(new NeuralNetConfiguration.Builder()
 				.seed(123)
-				.weightInit(WeightInit.XAVIER)
+				.weightInit(WeightInit.RELU)
+				.activation(Activation.RELU)
 				.updater(new Nesterovs(0.005))	// Utilisation correcte du taux d'apprentissage
 				.list()
 				.layer(new OutputLayer.Builder(LossFunctions.LossFunction.MSE)	// Mean Squared Error
@@ -36,7 +37,7 @@ public class LinearRegressioExample {
 		DataSet dataSet = new DataSet(input, labels);
 		
 		//Entraînement
-		for(int i = 0; i < 20000; i++) {
+		for(int i = 0; i < 2000; i++) {
 			model.fit(dataSet);
 		}
 		
