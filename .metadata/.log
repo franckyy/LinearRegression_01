@@ -1,0 +1,13 @@
+!SESSION 2025-02-12 16:48:39.438 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.5
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product -data /home/oem/eclipse-workspace/Maven_projects/DeepLearning_02
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-12 16:48:41.076
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-12 16:48:41.681
+!MESSAGE Logback config file: /home/oem/eclipse-workspace/Maven_projects/DeepLearning_02/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
