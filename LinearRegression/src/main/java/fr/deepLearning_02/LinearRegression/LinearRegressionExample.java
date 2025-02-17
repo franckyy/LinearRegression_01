@@ -38,6 +38,9 @@ public class LinearRegressionExample {
 		//Entraînement
 		for(int i = 0; i < 2000; i++) {
 			model.fit(dataSet);
+		    if (i % 500 == 0) {
+		        System.out.println("Époque " + i + " - Score: " + model.score());
+		    }
 		}
 		
 		//Faire une prédiction
