@@ -16,8 +16,7 @@ public class LinearRegressionExample {
 		// Définir un réseau neuronal simple avec une seule couche
 		MultiLayerNetwork model = new MultiLayerNetwork(new NeuralNetConfiguration.Builder()
 				.seed(123)
-				.weightInit(WeightInit.RELU)
-				.activation(Activation.RELU)
+				.weightInit(WeightInit.XAVIER)
 				.updater(new Nesterovs(0.005))	// Utilisation correcte du taux d'apprentissage
 				.list()
 				.layer(new OutputLayer.Builder(LossFunctions.LossFunction.MSE)	// Mean Squared Error
