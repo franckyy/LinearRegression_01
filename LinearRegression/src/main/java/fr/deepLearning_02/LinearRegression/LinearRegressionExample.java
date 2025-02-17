@@ -11,7 +11,7 @@ import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.learning.config.Nesterovs;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
-public class LinearRegressioExample {
+public class LinearRegressionExample {
 	public static void main(String[] args) {
 		// Définir un réseau neuronal simple avec une seule couche
 		MultiLayerNetwork model = new MultiLayerNetwork(new NeuralNetConfiguration.Builder()

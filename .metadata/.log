@@ -171,3 +171,16 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
 	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
 	... 26 more
+!SESSION 2025-02-17 11:26:17.263 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.5
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-17 11:26:18.978
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-17 11:26:22.995
+!MESSAGE Logback config file: /home/oem/eclipse-workspace/Maven_projects/DeepLearning_02/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
