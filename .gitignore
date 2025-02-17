@@ -1,1 +1,16 @@
-/.metadata/
+# Ignorer les fichiers logs
+*.log
+
+# Ignorer les fichiers d'indexation
+*.index
+
+# Ignorer le dossier Eclipse de métadonnées
+.metadata/
+
+# Ignorer les fichiers de configuration Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorer les fichiers temporaires
+*.tmp
