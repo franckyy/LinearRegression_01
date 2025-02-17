@@ -17,7 +17,7 @@ public class LinearRegressionExample {
 		MultiLayerNetwork model = new MultiLayerNetwork(new NeuralNetConfiguration.Builder()
 				.seed(123)
 				.weightInit(WeightInit.XAVIER)
-				.updater(new Nesterovs(0.005))	// Utilisation correcte du taux d'apprentissage
+				.updater(new Nesterovs(0.01))	// Utilisation correcte du taux d'apprentissage
 				.list()
 				.layer(new OutputLayer.Builder(LossFunctions.LossFunction.MSE)	// Mean Squared Error
 						.activation(Activation.IDENTITY)	//activation linéaire
