@@ -55,5 +55,7 @@ public class LinearRegressionExample {
         System.out.println("Prédiction pour x=100 : " + output.getDouble(1));
         System.out.println("Poids entraîné : " + weights.getDouble(0));
         System.out.println("Biais entraîné : " + bias.getDouble(0));
+        
+        model.close();
 	}
 }
