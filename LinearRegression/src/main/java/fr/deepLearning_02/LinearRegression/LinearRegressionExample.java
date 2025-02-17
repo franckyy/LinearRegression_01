@@ -45,7 +45,7 @@ public class LinearRegressionExample {
 		DataSet dataSet = new DataSet(input, labels);
 		
 		//Entraînement
-		for(int i = 0; i < 5000; i++) {
+		for(int i = 0; i < 8000; i++) {
 			model.fit(dataSet);
 		    if (i % 500 == 0) {
 		        System.out.println("Époque " + i + " - Score: " + model.score());
